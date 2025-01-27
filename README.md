@@ -61,7 +61,8 @@ Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
 ```math
 Percentage\ of\ DFF's = Flop\ Ratio * 100
 ```
-Commands to run the OpenLANE flow and perform synthesis
+
+1.Commands to run the OpenLANE flow and perform synthesis
 
 ```bash
 # Change directory to openlane flow directory
@@ -82,6 +83,8 @@ prep -design picorv32a
 
 # Now the design is prepared and ready, we can run synthesis using following command
 run_synthesis
+
+Screenshots -
 
 
 
