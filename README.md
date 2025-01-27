@@ -61,6 +61,15 @@ Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
 ```math
 Percentage\ of\ DFF's = Flop\ Ratio * 100
 ```
+Commands to invoke the OpenLANE flow and perform synthesis
+
+```bash
+# Change directory to openlane flow directory
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+# Lab password
+docker
+```
 
 
 
