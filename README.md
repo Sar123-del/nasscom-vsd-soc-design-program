@@ -89,5 +89,9 @@ Screenshots -
 ![Image](https://github.com/user-attachments/assets/2690e2b0-8ac6-49a7-a2de-69f55cccf866)
 ![Image](https://github.com/user-attachments/assets/ac32a9f6-edb5-4e37-a99d-433d27f731dd)
 ![Image](https://github.com/user-attachments/assets/71a2472b-68ff-470a-a548-441308b96a7b)
+#### 2. Calculate the flop ratio.
+
+Screenshots of synthesis statistics report file
+
 
 
