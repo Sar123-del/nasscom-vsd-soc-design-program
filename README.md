@@ -92,6 +92,15 @@ Screenshots -
 #### 2. Calculate the flop ratio.
 
 Screenshots of synthesis statistics report file
+![Image](https://github.com/user-attachments/assets/1bc70eb3-60ee-49d4-9608-591d547080bb)
 
+Calculation of Flop Ratio and DFF % from synthesis statistics report file
+
+```math
+Flop\ Ratio = \frac{1613}{14876} = 0.108429685
+```
+```math
+Percentage\ of\ DFF's = 0.108429685 * 100 = 10.84296854\ \%
+```
 
 
