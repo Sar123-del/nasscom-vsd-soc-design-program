@@ -61,7 +61,7 @@ Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
 ```math
 Percentage\ of\ DFF's = Flop\ Ratio * 100
 ```
-Commands to invoke the OpenLANE flow and perform synthesis
+Commands to run the OpenLANE flow and perform synthesis
 
 ```bash
 # Change directory to openlane flow directory
@@ -70,6 +70,18 @@ cd Desktop/work/tools/openlane_working_dir/openlane
 # Lab password
 docker
 ```
+```tcl
+#  We have entered the OpenLANE flow and we can run the OpenLANE flow in the Interactive mode using the following command
+./flow.tcl -interactive
+
+#  The required packages for proper functionality of the OpenLANE flow
+package require openlane 0.9
+
+# Now the OpenLANE flow is ready and initially we have to prepare the design creating some necessary files and directories for running a specific design 'picorv32a'
+prep -design picorv32a
+
+# Now the design is prepared and ready, we can run synthesis using following command
+run_synthesis
 
 
 
