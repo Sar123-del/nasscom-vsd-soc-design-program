@@ -25,9 +25,9 @@ Semiconductor chips are manufactured in a foundry, a specialized facility for ch
 
 *Open-source ASIC design requires the following enablers:
 
-    RTL Designs
-    EDA Tools
-    PDK Data
+1.RTL Designs
+2.EDA Tools
+3.PDK Data
 
 Initially, IC design and fabrication were tightly coupled and handled by a few companies like TI and Intel.
 
