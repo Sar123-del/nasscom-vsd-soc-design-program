@@ -85,7 +85,7 @@ prep -design picorv32a
 run_synthesis
 
 Screenshots -
-
+![Image](https://github.com/user-attachments/assets/2690e2b0-8ac6-49a7-a2de-69f55cccf866)
 
 
 
