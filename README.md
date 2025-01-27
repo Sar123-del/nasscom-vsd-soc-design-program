@@ -1,80 +1,25 @@
 # nasscom-vsd-soc-design-program
-# Sarvocch: VLSI SoC Design and Planning (26 Jan 2025 - 30 Jan 2025)
+<!---
+![Digital_VLSI_SoC_Design_ _Planning_(RTL2GDSII_Flow)1](https://github.com/sar123-del/soc-design-and-planning-nasscom-vsd/assets/63997454/92eb860b-7a88-4c6f-8143-ad3e09fd9c5b)
+![Digital_VLSI_SoC_Design_ _Planning_(RTL2GDSII_Flow) (1)1](https://github.com/sar123-del/soc-design-and-planning-nasscom-vsd/assets/63997454/4285c5e4-d5df-43e4-b460-ead45ff67f9b)
+-->
+![Digital_VLSI_SoC_Design_ _Planning_(RTL2GDSII_Flow) (1)2](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/5b8bdb5f-95c7-41c0-b809-711b2b8ad171)
+# Digital VLSI SoC Design and Planning
 
-## Overview
-This repository details the RTL2GDSII flow for VLSI SoC design, featuring hands-on sessions and open-source tools such as OpenLANE and Sky130 PDK. All dates, screenshots, and references have been updated to reflect the workshop held from **26 Jan 2025 to 30 Jan 2025**.
+![Static Badge](https://img.shields.io/badge/OS-linux-orange)
+![Static Badge](https://img.shields.io/badge/EDA%20Tools-OpenLANE--Flow%2C_Yosys%2C_abc%2C_OpenROAD%2C_TritonRoute%2C_OpenSTA%2C_magic%2C_netgen%2C_GUNA-navy)
+![Static Badge](https://img.shields.io/badge/languages-verilog%2C_bash%2C_TCL-crimson)
+![GitHub last commit](https://img.shields.io/github/last-commit/fayizferosh/soc-design-and-planning-nasscom-vsd)
+![GitHub language count](https://img.shields.io/github/languages/count/fayizferosh/soc-design-and-planning-nasscom-vsd)
+![GitHub top language](https://img.shields.io/github/languages/top/fayizferosh/soc-design-and-planning-nasscom-vsd)
+![GitHub repo size](https://img.shields.io/github/repo-size/fayizferosh/soc-design-and-planning-nasscom-vsd)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fayizferosh/soc-design-and-planning-nasscom-vsd)
+![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/fayizferosh/soc-design-and-planning-nasscom-vsd)
+<!---
 
----
 
-## Key Sections and Updates
 
-### Section 1 - Inception of Open-Source EDA and Sky130 PDK
 
-#### Concepts Covered:
-- Basics of semiconductor packaging and chip design.
-- Role of RTL and its transition to GDSII.
-- Importance of RISC-V ISA and its implementation in design flow.
 
-#### Updated Screenshots
 
-![Screenshot (278)](https://github.com/sarvocch/vlsi-design/assets/...)
-
-> Screenshot updated to reflect a new timeline (**26 Jan 2025**).
-
-#### Tasks Completed:
-1. Synthesis of "picorv32a" using OpenLANE.
-2. Calculation of flop ratio.
-
----
-
-### Section 2 - Floorplanning and Library Cells
-
-#### Updated Screenshots
-
-![Screenshot from 2025-01-27](https://github.com/sarvocch/vlsi-design/assets/...)
-
-> Floorplanning steps adjusted for **27 Jan 2025.**
-
-Tasks include:
-1. Generating floorplan files.
-2. Exploring the die area using Magic Layout Tool.
-
----
-
-### Section 3 - Standard Cell Design Using Magic Layout
-
-#### Updated Screenshots
-
-![Screenshot from 2025-01-28](https://github.com/sarvocch/vlsi-design/assets/...)
-
-> Detailed Magic Layout exploration dated **28 Jan 2025**.
-
-Tasks include:
-- Extracting SPICE models for standard cells.
-- Post-layout simulation using NGSpice.
-
----
-
-### Section 4 - Timing Analysis and Clock Tree Synthesis
-
-#### Updated Screenshots
-
-![Screenshot from 2025-01-30](https://github.com/sarvocch/vlsi-design/assets/...)
-
-> Final timing analysis and clock tree synthesis reflecting **30 Jan 2025**.
-
-Tasks include:
-1. Post-CTS OpenROAD timing analysis.
-2. Addressing violations and ensuring efficient clock tree design.
-
----
-
-## Repository Details
-- **Operating System**: Linux
-- **Tools Used**: OpenLANE Flow, Magic, NGSpice
-- **Languages**: Verilog, TCL, Bash
-
----
-
-For detailed logs, run folders, and outputs, visit the respective directories in this repository.
 
