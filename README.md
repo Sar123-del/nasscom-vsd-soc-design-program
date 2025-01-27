@@ -12,7 +12,7 @@
 #### Package
 
 * In any embedded board, the component we typically recognize as the "chip" is actually the package—a protective casing designed to shield the actual chip. The actual manufactured chip resides at the center of this package. The package serves as a bridge, connecting the chip to external circuits using the wire bond method, which involves simple wired connections.
-  ![Image](https://github.com/user-attachments/assets/63da06ea-46bc-4815-bfbc-5f75fd4fda2f)
+  ![Image](https://github.com/user-attachments/assets/7ffdc40e-f31d-4b5b-920a-4d1f3789a4df)
   #### Chip
 
  * Inside the chip, all signals entering or leaving are routed through pads. These pads surround the core, which houses all the digital logic of the chip. Together, the core    and pads form the die, the fundamental manufacturing unit of a semiconductor chip.
