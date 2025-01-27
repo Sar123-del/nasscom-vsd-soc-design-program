@@ -50,7 +50,8 @@ PDKs, distributed under NDAs, were inaccessible to the public until Google partn
 ![Image](https://github.com/user-attachments/assets/65df2ceb-61e6-41fc-8b74-0fa0833a4154)
 ![Image](https://github.com/user-attachments/assets/c6b58f52-cb09-426f-8368-c02928824f47)
 ![Image](https://github.com/user-attachments/assets/efa25de1-165b-42d9-aede-03a077fe2b59)
-Section 1 tasks:- 
+
+**Section 1 tasks:-** 
 1. Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
 2. Calculate the flop ratio.
 
