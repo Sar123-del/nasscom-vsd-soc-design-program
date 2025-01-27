@@ -12,6 +12,7 @@
 #### Package
 
 * n any embedded board, the component we typically recognize as the "chip" is actually the package—a protective casing designed to shield the actual chip. The actual manufactured chip resides at the center of this package. The package serves as a bridge, connecting the chip to external circuits using the wire bond method, which involves simple wired connections.
+  ![Image](https://github.com/user-attachments/assets/cbae27d0-03ab-4f2e-a779-126775787b1f)
 
 
 
