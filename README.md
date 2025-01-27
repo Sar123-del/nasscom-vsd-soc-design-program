@@ -87,6 +87,7 @@ run_synthesis
 
 Screenshots -
 ![Image](https://github.com/user-attachments/assets/2690e2b0-8ac6-49a7-a2de-69f55cccf866)
+![Image](https://github.com/user-attachments/assets/ac32a9f6-edb5-4e37-a99d-433d27f731dd)
 
 
 
