@@ -19,8 +19,8 @@
  ![Image](https://github.com/user-attachments/assets/61ba8d2a-273b-4d04-9d6c-b4a5232efa2b)
 
 * **FOUNDRY**
-Semiconductor chips are manufactured in a foundry, a specialized facility for chip production. Foundry IPs (Intellectual Properties) are designs tailored to a specific foundry and require a high level of expertise to develop. On the other hand, reusable digital logic blocks are referred to as**macros**.
-
+Semiconductor chips are manufactured in a foundry, a specialized facility for chip production. Foundry IPs (Intellectual Properties) are designs tailored to a specific foundry and require a high level of expertise to develop. On the other hand, reusable digital logic blocks are referred to as **macros**.
+![Image](https://github.com/user-attachments/assets/2a8cc585-254e-49fb-ad5b-3622df2cfaf0)
 
 
 
