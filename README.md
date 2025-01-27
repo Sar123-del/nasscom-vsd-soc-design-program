@@ -38,6 +38,11 @@ This separation gave rise to fabless companies (design-only) and pure-play fabs 
 Designers and fabs began interacting through Process Design Kits (PDKs), which include device models, technology data, design rules, libraries, etc.
 
 PDKs, distributed under NDAs, were inaccessible to the public until Google partnered with SkyWater Technology to open-source the 130nm PDK. This historic release occurred on June 30, 2020.
+![Image](https://github.com/user-attachments/assets/6f6f7878-f877-4998-bb46-66d053f281e1)
+#### OpenLANE Open-source ASIC Design Implementation Flow
+* The primary goal of the ASIC design flow is to transform a design from the RTL (Register Transfer Level) stage to the GDSII format, which represents the final layout used for chip fabrication.
+
+
 
 
 
