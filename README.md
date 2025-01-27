@@ -3,7 +3,7 @@
 ![Digital_VLSI_SoC_Design_ _Planning_(RTL2GDSII_Flow)1](https://github.com/sar123-del/soc-design-and-planning-nasscom-vsd/assets/63997454/92eb860b-7a88-4c6f-8143-ad3e09fd9c5b)
 ![Digital_VLSI_SoC_Design_ _Planning_(RTL2GDSII_Flow) (1)1](https://github.com/sar123-del/soc-design-and-planning-nasscom-vsd/assets/63997454/4285c5e4-d5df-43e4-b460-ead45ff67f9b)
 -->
-![Image](https://github.com/user-attachments/assets/8d6a6a03-c821-4f18-9ed0-b326b01e6fb5)
+![Image](https://github.com/user-attachments/assets/61738ba5-47a6-4821-a218-28d362891129)
 # Digital VLSI SoC Design and Planning
 ## Section 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK (26/01/2025 )
 
