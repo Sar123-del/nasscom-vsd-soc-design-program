@@ -11,8 +11,7 @@
 
 #### Package
 
-* In any embedded board we have seen, the part of the board we consider as the chip is only the ***PACKAGE*** of the chip which is nothing but a protective layer or packet bound over the actual chip and the actual manufatured chip is usually present at the center of a package wherein, the connections from package is fed to the chip by ***WIRE BOUND*** method which is none other than basic wired connection.
-
+* n any embedded board, the component we typically recognize as the "chip" is actually the package—a protective casing designed to shield the actual chip. The actual manufactured chip resides at the center of this package. The package serves as a bridge, connecting the chip to external circuits using the wire bond method, which involves simple wired connections.
 
 
 
