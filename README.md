@@ -43,7 +43,7 @@ PDKs, distributed under NDAs, were inaccessible to the public until Google partn
 * The primary goal of the ASIC design flow is to transform a design from the RTL (Register Transfer Level) stage to the GDSII format, which represents the final layout used for chip fabrication.
   ![Image](https://github.com/user-attachments/assets/52c8f912-dbc6-41d3-915a-67d3cde7b70d)
 * Here are the steps to implement the ASIC design flow
-
+![Image](https://github.com/user-attachments/assets/ac686517-a427-467d-bc87-13947b63ccb4)
 
 
 
