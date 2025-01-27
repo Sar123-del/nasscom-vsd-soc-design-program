@@ -1,4 +1,4 @@
-# nasscom-vsd-soc-design-program
+
 <!---
 ![Digital_VLSI_SoC_Design_ _Planning_(RTL2GDSII_Flow)1](https://github.com/sar123-del/soc-design-and-planning-nasscom-vsd/assets/63997454/92eb860b-7a88-4c6f-8143-ad3e09fd9c5b)
 ![Digital_VLSI_SoC_Design_ _Planning_(RTL2GDSII_Flow) (1)1](https://github.com/sar123-del/soc-design-and-planning-nasscom-vsd/assets/63997454/4285c5e4-d5df-43e4-b460-ead45ff67f9b)
@@ -15,7 +15,8 @@
   ![Image](https://github.com/user-attachments/assets/cbae27d0-03ab-4f2e-a779-126775787b1f)
 #### Chip
 
- I* Inside the chip, all signals entering or leaving are routed through pads. These pads surround the core, which houses all the digital logic of the chip. Together, the core    and pads form the die, the fundamental manufacturing unit of a semiconductor chip.
+ * Inside the chip, all signals entering or leaving are routed through pads. These pads surround the core, which houses all the digital logic of the chip. Together, the core    and pads form the die, the fundamental manufacturing unit of a semiconductor chip.
+ ![Image](https://github.com/user-attachments/assets/61ba8d2a-273b-4d04-9d6c-b4a5232efa2b)
 
 
 
