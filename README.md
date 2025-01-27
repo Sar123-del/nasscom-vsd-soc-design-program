@@ -17,6 +17,8 @@
 
  * Inside the chip, all signals entering or leaving are routed through pads. These pads surround the core, which houses all the digital logic of the chip. Together, the core    and pads form the die, the fundamental manufacturing unit of a semiconductor chip.
  ![Image](https://github.com/user-attachments/assets/61ba8d2a-273b-4d04-9d6c-b4a5232efa2b)
+* ***FOUNDRY***
+Semiconductor chips are manufactured in a foundry, a specialized facility for chip production. Foundry IPs (Intellectual Properties) are designs tailored to a specific foundry and require a high level of expertise to develop. On the other hand, reusable digital logic blocks are referred to as**macros**.
 
 
 
