@@ -97,6 +97,7 @@ Repeatable digital logic blocks inside a chip are called macros.
 OpenLANE - Open-source ASIC Design Flow
 The goal of the ASIC Design Flow is to turn a design from RTL (Register Transfer Level) into GDSII, the final format needed to make the chip.
 Some of the main steps are-
+![Image](https://github.com/user-attachments/assets/761f5d34-0dfe-4eec-9a5f-3733f7805787)
 
 
 **DAY-2  Good floorplan vs bad floorplan and introduction to library cells**
