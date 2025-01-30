@@ -165,7 +165,8 @@ After entering this command .It would look like this
 [Image](https://github.com/user-attachments/assets/db688cf4-e4d7-4b15-8fd0-cdbabf52f3b4)
 
 Images of verticle metal layer
-
+![Image](https://github.com/user-attachments/assets/08e8a54d-4ab7-41b7-9d0a-da15f30c9bf2)
+Images of horizontal meatl layer
 
    
 
