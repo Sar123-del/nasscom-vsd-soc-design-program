@@ -93,6 +93,10 @@ Foundry
 A foundry is a place where semiconductor chips are made.
 Foundry IPs are special designs made for a specific foundry. Creating them needs a lot of knowledge and skill.
 Repeatable digital logic blocks inside a chip are called macros.
+![Image](https://github.com/user-attachments/assets/695c0fc5-ce24-4a3a-ab59-67f3a93c6c40)
+OpenLANE - Open-source ASIC Design Flow
+The goal of the ASIC Design Flow is to turn a design from RTL (Register Transfer Level) into GDSII, the final format needed to make the chip.
+Some of the main steps are-
 
 
 **DAY-2  Good floorplan vs bad floorplan and introduction to library cells**
