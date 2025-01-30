@@ -108,7 +108,7 @@ Some of the main steps are-
 4. Run placement in openlane
 5. Exploring placement using magic tool
 
-   ```math
+```math
 Area\ of\ die\ in\ microns = Die\ width\ in\ microns * Die\ height\ in\ microns
 ```
 
@@ -116,6 +116,7 @@ Area\ of\ die\ in\ microns = Die\ width\ in\ microns * Die\ height\ in\ microns
    *1.Commands to run 'picorv32a' design floorplan
    Once we are in the openlane flow and successfully run synthesis
    Run the following command
+
 ```bash
 # To run floorplan
   run_floorplan
