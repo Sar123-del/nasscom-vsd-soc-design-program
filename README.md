@@ -81,6 +81,7 @@ Package
 The chip we see on a board is actually its package, not the real chip. The package is like a cover that protects the tiny chip inside.
 The real chip is placed at the center of the package. It is connected to the package using very thin wires. This is called wire bonding.
 So, the package keeps the chip safe and helps it connect to other parts of the board.
+![Image](https://github.com/user-attachments/assets/f7f23daa-2a58-4890-831b-e77276aec0a4)
 
 
 **DAY-2  Good floorplan vs bad floorplan and introduction to library cells**
