@@ -122,7 +122,33 @@ Area\ of\ die\ in\ microns = Die\ width\ in\ microns * Die\ height\ in\ microns
   run_floorplan
 ```
 ![Image](https://github.com/user-attachments/assets/360ee5f1-c75c-4d00-b10c-d1de8a3a769b)
+![Image](https://github.com/user-attachments/assets/975822bc-c9af-4a13-a0fd-2ad794ed3b69)  
 
+2. Calculate the die area in microns
+   Screenshot of contents of floorplan.def
+   
+   According to floorplan def
+```math
+1000\ Unit\ Distance = 1\ Micron
+```
+```math
+Die\ width\ in\ unit\ distance = 660685  = 660685
+```
+```math
+Die\ height\ in\ unit\ distance = 671405 = 671405
+```
+```math
+Distance\ in\ microns = \frac{Value\ in\ Unit\ Distance}{1000}
+```
+```math
+Die\ width\ in\ microns = \frac{660685}{1000} = 660.685\ Microns
+```
+```math
+Die\ height\ in\ microns = \frac{671405}{1000} = 671.405\ Microns
+```
+```math
+Area\ of\ die\ in\ microns = 660.685 * 671.405 = 443587.212425\ Square\ Microns
+```
 
 
    
