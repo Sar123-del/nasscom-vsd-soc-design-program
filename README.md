@@ -166,8 +166,14 @@ After entering this command .It would look like this
 
 Images of verticle metal layer
 ![Image](https://github.com/user-attachments/assets/08e8a54d-4ab7-41b7-9d0a-da15f30c9bf2)
-Images of horizontal meatl layer
 
+Images of horizontal meatl layer
+![Image](https://github.com/user-attachments/assets/4ae4793d-d08c-4659-8ff9-51b45bc335f6)
+
+We can use what command to see what is that particular object
+```bash
+  what
+```
    
 
 
