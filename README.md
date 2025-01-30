@@ -174,7 +174,15 @@ We can use what command to see what is that particular object
 ```bash
   what
 ```
-   
+![Image](https://github.com/user-attachments/assets/8bfbded0-7663-4fc1-8ddc-f7a5b5b44093)
+ #### 4. Run placement in openlane
+Once we have entered in openlane flow and run synthesis and floorplan. Run the folowing command
+
+```bash
+# To run placement
+run_placement
+```
+
 
 
 
