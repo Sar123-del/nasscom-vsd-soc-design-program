@@ -7,7 +7,7 @@
 # Digital VLSI SoC Design and Planning
 ## DAY-1 - Inception of open-source EDA, OpenLANE and Sky130 PDK 
 **LABS**
-1. Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
+1. Run 'picorv32a' design synthesis 
 2. Calculate the flop ratio.
 
 ```math
@@ -68,7 +68,7 @@ Percentage\ of\ DFF's = 0.108429685 * 100 = 10.84296854\ \%
 ![Image](https://github.com/user-attachments/assets/a3d4b332-47c4-46e8-bce5-0a3a714f0507)
 #### 4. Comand to see what is inside a particular file
 ```bash
-# To see what is inside a file1
+# To see what is inside a file
   ls -ltr
 ```
 
@@ -101,6 +101,23 @@ Some of the main steps are-
 
 
 **DAY-2  Good floorplan vs bad floorplan and introduction to library cells**
+**LABS**
+1. Run 'picorv32a' design floorplan 
+2. Calculate the die area in microns 
+   ```math
+Area\ of\ die\ in\ microns = Die\ width\ in\ microns * Die\ height\ in\ microns
+```
+3. Exploring floorplan using magic tool
+4. Run placement in openlane
+5. EXploring placement using magic tool
+
+1. Commands to run 'picorv32a' design floorplan
+   Once we are in the openlane flow and successfully run synthesis
+   Run the following command
+```bash
+# To run floorplan
+  run_floorplan
+```
 
 
 
