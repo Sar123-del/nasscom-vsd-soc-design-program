@@ -69,7 +69,7 @@ Percentage\ of\ DFF's = 0.108429685 * 100 = 10.84296854\ \%
 #### 4. Comand to see what is inside a particular file
 ```bash
 # To see what is inside a file
-  ls -ltr
+  less
 ```
 
 To see what is inside config.tcl
