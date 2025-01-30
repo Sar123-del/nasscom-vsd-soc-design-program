@@ -5,10 +5,8 @@
 -->
 ![Image](https://github.com/user-attachments/assets/31821cc8-a965-4d25-ac1c-98dfbc6ef849)
 # Digital VLSI SoC Design and Planning
-## Section 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK (26/01/2025 )
+## Section 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK (26/01/2025)
 **LABS**
-
-**Section 1** 
 1. Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
 2. Calculate the flop ratio.
 
@@ -74,6 +72,9 @@ Percentage\ of\ DFF's = 0.108429685 * 100 = 10.84296854\ \%
 ```
 To see what is inside config.tcl
 ![Image](https://github.com/user-attachments/assets/5ae00fbc-df7c-4c7a-b336-481193401fc2)
+![Image](https://github.com/user-attachments/assets/2dc10ee1-51c7-4d93-ab63-498426d5f475)
+
+**LABS**
 
 
 
