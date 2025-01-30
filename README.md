@@ -8,7 +8,7 @@
 ## Section 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK (26/01/2025 )
 **LABS**
 
-**Section 1 tasks:-** 
+**Section 1** 
 1. Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
 2. Calculate the flop ratio.
 
@@ -18,7 +18,8 @@ Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
 ```math
 Percentage\ of\ DFF's = Flop\ Ratio * 100
 ```
-3. Comand to know what is inside a particular file
+3. Comand to know what is inside a particular folder
+4. Command to see what is inside a file
 
 1.Commands to run the OpenLANE flow and perform synthesis
 
@@ -60,12 +61,21 @@ Flop\ Ratio = \frac{1613}{14876} = 0.108429685
 ```math
 Percentage\ of\ DFF's = 0.108429685 * 100 = 10.84296854\ \%
 ```
-#### 3. Comand to know what is inside a particular file
+#### 3. Comand to know what is inside a particular folder
 ```bash
-# To see what is inside a file
+# To see what is inside a folder
   ls -ltr
-
 ```
+ To see what is in the runs folder
+![Image](https://github.com/user-attachments/assets/a3d4b332-47c4-46e8-bce5-0a3a714f0507)
+#### 4. Comand to see what is inside a particular file
+``bash
+# To see what is inside a file
+  less
+```
+To see what is inside config.tcl
+
+
 
 
 
