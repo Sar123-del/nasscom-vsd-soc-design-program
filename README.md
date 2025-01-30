@@ -100,7 +100,7 @@ Some of the main steps are-
 ![Image](https://github.com/user-attachments/assets/761f5d34-0dfe-4eec-9a5f-3733f7805787)
 
 
-**DAY-2  Good floorplan vs bad floorplan and introduction to library cells**
+## DAY-2  Good floorplan vs bad floorplan and introduction to library cells
 **LABS**
 1. Run 'picorv32a' design floorplan 
 2. Calculate the die area in microns
@@ -123,6 +123,7 @@ Area\ of\ die\ in\ microns = Die\ width\ in\ microns * Die\ height\ in\ microns
 ```
 ![Image](https://github.com/user-attachments/assets/360ee5f1-c75c-4d00-b10c-d1de8a3a769b)
 ![Image](https://github.com/user-attachments/assets/975822bc-c9af-4a13-a0fd-2ad794ed3b69)  
+Now we have successfully run floorplan in openlane
 
 ### 2. Calculate the die area in microns
    Screenshot of contents of floorplan.def
@@ -175,6 +176,7 @@ We can use what command to see what is that particular object
   what
 ```
 ![Image](https://github.com/user-attachments/assets/8bfbded0-7663-4fc1-8ddc-f7a5b5b44093)
+
  #### 4. Run placement in openlane
 Once we have entered in openlane flow and run synthesis and floorplan. Run the folowing command
 
@@ -182,6 +184,25 @@ Once we have entered in openlane flow and run synthesis and floorplan. Run the f
 # To run placement
 run_placement
 ```
+![Image](https://github.com/user-attachments/assets/16f01802-d734-4f66-9db4-5489e95b6f35)
+Now we have successfully run placement in openlane
+#### 5. Exploring placement using magic tool
+
+
+
+```bash
+# Change directory to path containing generated placement def
+/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/28-01_11-24/results/placement
+
+# Command to open the placement def in magic tool
+-T/home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp//merged.lef def read picorv32a.placement.def &
+```
+Screenshots-
+![image](https://github.com/user-attachments/assets/0f3c0dd2-23db-4cd7-ba21-694ec958ba28)
+
+Placing of standard cells
+![image](https://github.com/user-attachments/assets/cdc78756-1e6e-44b1-9b7a-423bd3d773be)
+
 
 
 
