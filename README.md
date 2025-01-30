@@ -103,21 +103,28 @@ Some of the main steps are-
 **DAY-2  Good floorplan vs bad floorplan and introduction to library cells**
 **LABS**
 1. Run 'picorv32a' design floorplan 
-2. Calculate the die area in microns 
+2. Calculate the die area in microns
+3. Exploring floorplan using magic tool
+4. Run placement in openlane
+5. Exploring placement using magic tool
+
    ```math
 Area\ of\ die\ in\ microns = Die\ width\ in\ microns * Die\ height\ in\ microns
 ```
-3. Exploring floorplan using magic tool
-4. Run placement in openlane
-5. EXploring placement using magic tool
 
-1. Commands to run 'picorv32a' design floorplan
+
+   *1.Commands to run 'picorv32a' design floorplan
    Once we are in the openlane flow and successfully run synthesis
    Run the following command
 ```bash
 # To run floorplan
   run_floorplan
 ```
+![Image](https://github.com/user-attachments/assets/360ee5f1-c75c-4d00-b10c-d1de8a3a769b)
+
+
+
+   
 
 
 
