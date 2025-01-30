@@ -87,6 +87,12 @@ Chip
 Inside the chip, signals from the outside world enter and exit through small points called pads.
 The area inside the pads is called the core, where all the important digital work happens.
 Together, the core and pads form the die, which is the main part of a semiconductor chip.
+![Image](https://github.com/user-attachments/assets/a4063d5e-5716-4a92-b027-35d644236ab0)
+Foundry
+
+A foundry is a place where semiconductor chips are made.
+Foundry IPs are special designs made for a specific foundry. Creating them needs a lot of knowledge and skill.
+Repeatable digital logic blocks inside a chip are called macros.
 
 
 **DAY-2  Good floorplan vs bad floorplan and introduction to library cells**
