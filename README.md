@@ -76,6 +76,13 @@ To see what is inside config.tcl
 ![Image](https://github.com/user-attachments/assets/5ae00fbc-df7c-4c7a-b336-481193401fc2)
 ![Image](https://github.com/user-attachments/assets/2dc10ee1-51c7-4d93-ab63-498426d5f475)
 
+## Theory
+Package
+The chip we see on a board is actually its package, not the real chip. The package is like a cover that protects the tiny chip inside.
+The real chip is placed at the center of the package. It is connected to the package using very thin wires. This is called wire bonding.
+So, the package keeps the chip safe and helps it connect to other parts of the board.
+
+
 **DAY-2  Good floorplan vs bad floorplan and introduction to library cells**
 
 
