@@ -113,7 +113,7 @@ Area\ of\ die\ in\ microns = Die\ width\ in\ microns * Die\ height\ in\ microns
 ```
 
 
-   *1.Commands to run 'picorv32a' design floorplan
+   ### 1.Commands to run 'picorv32a' design floorplan
    Once we are in the openlane flow and successfully run synthesis
    Run the following command
 
@@ -124,10 +124,11 @@ Area\ of\ die\ in\ microns = Die\ width\ in\ microns * Die\ height\ in\ microns
 ![Image](https://github.com/user-attachments/assets/360ee5f1-c75c-4d00-b10c-d1de8a3a769b)
 ![Image](https://github.com/user-attachments/assets/975822bc-c9af-4a13-a0fd-2ad794ed3b69)  
 
-2. Calculate the die area in microns
+### 2. Calculate the die area in microns
    Screenshot of contents of floorplan.def
+   ![Image](https://github.com/user-attachments/assets/cd177bec-b4e8-42ab-9775-efcf18235844)
    
-   According to floorplan def
+   
 ```math
 1000\ Unit\ Distance = 1\ Micron
 ```
@@ -148,6 +149,17 @@ Die\ height\ in\ microns = \frac{671405}{1000} = 671.405\ Microns
 ```
 ```math
 Area\ of\ die\ in\ microns = 660.685 * 671.405 = 443587.212425\ Square\ Microns
+```
+#### 3. Exploring floorplan using magic
+
+Commands, but use it in another teminal
+
+```bash
+# Change directory to path containing generated floorplan def
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/17-03_12-06/results/floorplan/
+
+# Command to load the floorplan def in magic tool
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
 ```
 
 
