@@ -6,7 +6,7 @@
 ![Image](https://github.com/user-attachments/assets/31821cc8-a965-4d25-ac1c-98dfbc6ef849)
 # Digital VLSI SoC Design and Planning
 ## Section 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK (26/01/2025 )
-##LABS##
+**LABS**
 
 **Section 1 tasks:-** 
 1. Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
@@ -18,6 +18,7 @@ Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
 ```math
 Percentage\ of\ DFF's = Flop\ Ratio * 100
 ```
+3. Comand to know what is inside a particular file
 
 1.Commands to run the OpenLANE flow and perform synthesis
 
@@ -59,5 +60,12 @@ Flop\ Ratio = \frac{1613}{14876} = 0.108429685
 ```math
 Percentage\ of\ DFF's = 0.108429685 * 100 = 10.84296854\ \%
 ```
+#### 3. Comand to know what is inside a particular file
+```bash
+# To see what is inside a file
+  ls -ltr
+
+```
+
 
 
