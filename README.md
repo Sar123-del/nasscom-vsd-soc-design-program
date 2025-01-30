@@ -83,6 +83,11 @@ The real chip is placed at the center of the package. It is connected to the pac
 So, the package keeps the chip safe and helps it connect to other parts of the board.
 ![Image](https://github.com/user-attachments/assets/f7f23daa-2a58-4890-831b-e77276aec0a4)
 
+Chip
+Inside the chip, signals from the outside world enter and exit through small points called pads.
+The area inside the pads is called the core, where all the important digital work happens.
+Together, the core and pads form the die, which is the main part of a semiconductor chip.
+
 
 **DAY-2  Good floorplan vs bad floorplan and introduction to library cells**
 
