@@ -295,7 +295,7 @@ Screenshot of the plot -
 Rise transition time calculation
 
 ```math
-Rise\ transition\ time = Time\ taken\ for\ output\ to\ rise\ to\ 80\% - Time\ taken\ for\ output\ to\ rise\ to\ 20\%
+Fall\ transition\ time = Time\ taken\ for\ output\ to\ fall\ to\ 20\% - Time\ taken\ for\ output\ to\ fall\ to\ 80\%
 ```
 ```math
 20\%\ of\ output = 660\ 
@@ -306,7 +306,42 @@ Rise\ transition\ time = Time\ taken\ for\ output\ to\ rise\ to\ 80\% - Time\ ta
 
 ```math
 Rise\ transition\ time = 2.196 - 2.161 = 0.035
+
 ```
+
+** 6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.**
+
+```bash
+# Change to home directory
+cd
+
+# Command to download the lab files
+wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+
+# Since lab file is compressed command to extract it
+tar xfz drc_tests.tgz
+
+# Change directory into the lab folder
+cd drc_tests
+
+# List all files and directories present in the current directory
+ls -al
+
+# Command to view .magicrc file
+gvim .magicrc
+
+# Command to open magic tool in better graphics
+magic -d XR &
+```
+![image](https://github.com/user-attachments/assets/b9832be2-7bea-4bce-8008-968624df8726)
+![image](https://github.com/user-attachments/assets/8f52448e-ea98-489b-806f-b80367b3fe53)
+loading Poly -
+![image](https://github.com/user-attachments/assets/09d72414-b6f4-40a7-b14b-9e6d6f0e2e17)
+![image](https://github.com/user-attachments/assets/7dbba081-af6e-46e5-801f-0ee2ffd8b115)
+
+
+
+
 
 
 
