@@ -208,7 +208,7 @@ Placing of standard cells
 1. Clone custom inverter standard cell design from github repository
 2. Load and explore custom inverter
 3. Spice extraction of inverter
-4. Editing the spice model file for analysis through simulation.
+4. Editing the spice model file 
 5. Post-layout ngspice simulations.
 6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.
 
@@ -269,6 +269,16 @@ ext2spice cthresh 0 rthresh 0
 # Converting to ext to spice
 ext2spice
 ```
+![image](https://github.com/user-attachments/assets/fa3e6727-f26f-4189-9446-e06c7ee248bb)
+Spice file is extracted
+![image](https://github.com/user-attachments/assets/9fd5d119-3646-4151-8e79-984f46263e0a)
+Screenshots of spice file
+![image](https://github.com/user-attachments/assets/8e83283f-0e65-429e-97a9-dc2282a58cba)
+
+**4. Editing the spice model file**
+ Final edited spice file
+![image](https://github.com/user-attachments/assets/46af7643-37aa-4dce-9d7f-1c03799e8c05)
+
 
    
 
