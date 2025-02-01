@@ -297,19 +297,20 @@ Rise transition time calculation
 ```math
 Fall\ transition\ time = Time\ taken\ for\ output\ to\ fall\ to\ 20\% - Time\ taken\ for\ output\ to\ fall\ to\ 80\%
 ```
+
 ```math
 20\%\ of\ output = 660\ 
 ```
+
 ```math
 80\%\ of\ output = 2.64\
 ```
 
 ```math
 Rise\ transition\ time = 2.196 - 2.161 = 0.035
-
 ```
 
-** 6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.**
+ 6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.
 
 ```bash
 # Change to home directory
@@ -338,6 +339,11 @@ magic -d XR &
 loading Poly -
 ![image](https://github.com/user-attachments/assets/09d72414-b6f4-40a7-b14b-9e6d6f0e2e17)
 ![image](https://github.com/user-attachments/assets/7dbba081-af6e-46e5-801f-0ee2ffd8b115)
+After changing code and correcting poly -
+![image](https://github.com/user-attachments/assets/d606b11f-f89e-4590-a0c2-051854727f93)
+![image](https://github.com/user-attachments/assets/1cee9ec6-c86b-4856-b7af-a765b367a653)
+
+
 
 
 
