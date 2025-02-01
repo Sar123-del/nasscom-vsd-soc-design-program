@@ -207,12 +207,12 @@ Placing of standard cells
  **LABS**
 1. Clone custom inverter standard cell design from github repository
 2. Load and explore custom inverter
-3. Spice extraction of inverter in magic.
+3. Spice extraction of inverter
 4. Editing the spice model file for analysis through simulation.
 5. Post-layout ngspice simulations.
 6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.
 
-1. Clone custom inverter standard cell design from github repository
+1. **Clone custom inverter standard cell design from github repository**
 
 ```bash
 
@@ -228,9 +228,55 @@ cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/
 # Check contents 
 ls
 
-# Command to open custom inverter layout in magic
-magic -T sky130A.tech sky130_inv.mag &
 ```
+![image](https://github.com/user-attachments/assets/bd159dab-42b2-44e4-97f3-e0eb1c09d2be)
+![image](https://github.com/user-attachments/assets/417197ae-e945-4196-9728-84e57cf59cf3)
+![image](https://github.com/user-attachments/assets/9e40ae63-9e86-4536-9190-617465b2e283)
+
+2. **Load and explore custom inverter**
+   ```bash
+
+    # Command to open custom inverter layout in magic
+      magic -T sky130A.tech sky130_inv.mag &
+   ```
+   ![image](https://github.com/user-attachments/assets/a54ee0d6-5238-4c3b-aa91-9bfac90e0075)
+   ![image](https://github.com/user-attachments/assets/59e10249-8d01-4694-b3d7-14b242fe3d19)
+   Using command "what" identification of pmos and nmos
+   ![image](https://github.com/user-attachments/assets/21131919-cad8-44a0-8071-4438a39739a2)
+   ![image](https://github.com/user-attachments/assets/d4ecac00-acec-4a25-87cd-ff441ecc685b)
+   ![image](https://github.com/user-attachments/assets/14284318-e2e3-4252-9f75-19abd5d31ed5)
+   Output of y is connected pmos and nmos
+   ![image](https://github.com/user-attachments/assets/a6048848-c852-42d0-9e3c-6ba082302c2d)
+   Connection of VPWR
+   ![image](https://github.com/user-attachments/assets/c0232366-a38e-4990-b03f-971b2bae3ef7)
+   Connection of VGND
+   ![image](https://github.com/user-attachments/assets/23bc440c-c5b0-4bcb-a49e-056377740118)
+   **3. Spice extraction of inverter**
+   Commands -
+   Spice extraction of inverter in magic.
+
+Commands for spice extraction of the custom inverter layout to be used in tkcon window of magic
+
+```bash
+# current directory
+pwd
+
+# Extraction command to extract 
+extract all
+
+ext2spice cthresh 0 rthresh 0
+
+# Converting to ext to spice
+ext2spice
+```
+
+   
+
+
+
+
+
+
 
 
 
