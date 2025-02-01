@@ -209,7 +209,7 @@ Placing of standard cells
 2. Load and explore custom inverter
 3. Spice extraction of inverter
 4. Editing the spice model file 
-5. Post-layout ngspice simulations.
+5. Ngspice simulations.
 6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.
 
 1. **Clone custom inverter standard cell design from github repository**
@@ -278,6 +278,44 @@ Screenshots of spice file
 **4. Editing the spice model file**
  Final edited spice file
 ![image](https://github.com/user-attachments/assets/46af7643-37aa-4dce-9d7f-1c03799e8c05)
+**5. Ngspice simulations.**
+Commands for ngspice simulation
+
+```bash
+# Command to  load spice file for simulation to ngspice
+ngspice sky130_inv.spice
+
+# Now that we have entered ngspice plot it
+plot y vs time a
+```
+Screenshots-
+![image](https://github.com/user-attachments/assets/35570983-5940-4194-b98d-0bf27f01d6fc)
+Screenshot of the plot -
+![image](https://github.com/user-attachments/assets/792e187d-2f05-49c2-8e7d-2ff64e6e4143)
+Rise transition time calculation
+
+```math
+Rise\ transition\ time = Time\ taken\ for\ output\ to\ rise\ to\ 80\% - Time\ taken\ for\ output\ to\ rise\ to\ 20\%
+```
+```math
+20\%\ of\ output = 660\ 
+```
+```math
+80\%\ of\ output = 2.64\
+```
+20%
+![image](https://github.com/user-attachments/assets/16f2814f-dcd0-4a4d-8842-82e5bd7a4b37)
+80%
+![image](https://github.com/user-attachments/assets/dd5e52a1-6bfd-4233-8009-4a1dbdfd80ad)
+
+```math
+Rise\ transition\ time = 2.196 - 2.161 = 0.035
+```
+
+
+
+
+
 
 
    
