@@ -203,6 +203,36 @@ Screenshots-
 Placing of standard cells
 ![image](https://github.com/user-attachments/assets/cdc78756-1e6e-44b1-9b7a-423bd3d773be)
 
+ ## DAY 3 - Design library cell using Magic Layout and ngspice characterization 
+ **LABS**
+1. Clone custom inverter standard cell design from github repository
+2. Load and explore custom inverter
+3. Spice extraction of inverter in magic.
+4. Editing the spice model file for analysis through simulation.
+5. Post-layout ngspice simulations.
+6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.
+
+1. Clone custom inverter standard cell design from github repository
+
+```bash
+
+# Clone the repository 
+git clone https://github.com/nickson-jose/vsdstdcelldesign
+
+# Change into repository directory
+cd vsdstdcelldesign
+
+# Copy magic tech file to the repo directory for easy access
+cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech .
+
+# Check contents 
+ls
+
+# Command to open custom inverter layout in magic
+magic -T sky130A.tech sky130_inv.mag &
+```
+
+
 
 
 
