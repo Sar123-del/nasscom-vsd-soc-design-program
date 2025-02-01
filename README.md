@@ -303,10 +303,6 @@ Rise\ transition\ time = Time\ taken\ for\ output\ to\ rise\ to\ 80\% - Time\ ta
 ```math
 80\%\ of\ output = 2.64\
 ```
-20%
-![image](https://github.com/user-attachments/assets/16f2814f-dcd0-4a4d-8842-82e5bd7a4b37)
-80%
-![image](https://github.com/user-attachments/assets/dd5e52a1-6bfd-4233-8009-4a1dbdfd80ad)
 
 ```math
 Rise\ transition\ time = 2.196 - 2.161 = 0.035
